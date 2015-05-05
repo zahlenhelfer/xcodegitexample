@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+func QuestionOfLife() -> Int{
+    var questionOfLife = 42;
+    return questionOfLife;
+}

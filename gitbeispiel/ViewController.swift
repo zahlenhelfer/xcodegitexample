@@ -20,9 +20,5 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func QuestionOfLife() -> Int{
-        var questionOfLife = 42;
-        return questionOfLife;
-    }
 }
 
