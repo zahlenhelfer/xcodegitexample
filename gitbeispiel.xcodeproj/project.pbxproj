@@ -13,6 +13,7 @@
 		48E98B4A1AF7940E008FA38D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E98B491AF7940E008FA38D /* Images.xcassets */; };
 		48E98B4D1AF7940E008FA38D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E98B4B1AF7940E008FA38D /* LaunchScreen.xib */; };
 		48E98B591AF7940E008FA38D /* gitbeispielTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E98B581AF7940E008FA38D /* gitbeispielTests.swift */; };
+		48E98B931AF8B4C7008FA38D /* MeineFunktionen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E98B921AF8B4C7008FA38D /* MeineFunktionen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		48E98B521AF7940E008FA38D /* gitbeispielTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitbeispielTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E98B571AF7940E008FA38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48E98B581AF7940E008FA38D /* gitbeispielTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitbeispielTests.swift; sourceTree = "<group>"; };
+		48E98B921AF8B4C7008FA38D /* MeineFunktionen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeineFunktionen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				48E98B491AF7940E008FA38D /* Images.xcassets */,
 				48E98B4B1AF7940E008FA38D /* LaunchScreen.xib */,
 				48E98B401AF7940E008FA38D /* Supporting Files */,
+				48E98B921AF8B4C7008FA38D /* MeineFunktionen.swift */,
 			);
 			path = gitbeispiel;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E98B931AF8B4C7008FA38D /* MeineFunktionen.swift in Sources */,
 				48E98B451AF7940E008FA38D /* ViewController.swift in Sources */,
 				48E98B431AF7940E008FA38D /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				48E98B5E1AF7940E008FA38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48E98B5F1AF7940E008FA38D /* Build configuration list for PBXNativeTarget "gitbeispielTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				48E98B611AF7940E008FA38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
